@@ -7,11 +7,10 @@ import { useHistory } from "react-router-dom";
 const Root = styled.div`
   width: 100vw;
   height: 90vh;
-  top: 8vh;
+  padding-top: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
 `;
 const Content = styled.div``;
 

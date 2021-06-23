@@ -5,6 +5,7 @@ import { HomePage } from "./pages/home";
 import { Profile } from "./pages/profile";
 import Header from "./component/header";
 import Footer from "./component/footer";
+import { Contact } from "./pages/contact";
 import "./App.css";
 
 export const App: React.FunctionComponent = () => {
@@ -16,6 +17,7 @@ export const App: React.FunctionComponent = () => {
         <Header />
         <Route exact path="/" component={HomePage} />
         <Route exact path="/profile" component={Profile} />
+        <Route exact path="/contact" component={Contact} />
         <Footer />
       </Router>
     </Root>

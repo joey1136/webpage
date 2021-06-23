@@ -39,7 +39,7 @@ const Header: React.FunctionComponent = () => {
           <Menu.Item name="Game" onClick={() => alert("developing")}>
             Game Corner
           </Menu.Item>
-          <Menu.Item name="contact" onClick={() => alert(123)}>
+          <Menu.Item name="contact" onClick={() => history.push(`/contact`)}>
             Contact
           </Menu.Item>
         </Menu>

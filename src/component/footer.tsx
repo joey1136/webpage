@@ -9,6 +9,7 @@ const Footer: React.FunctionComponent = () => {
     align-items: center;
     position: absolute;
     bottom: 0;
+    background: #faebd7;
   `;
   const Copyright = styled.div``;
   return (
